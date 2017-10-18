@@ -1,0 +1,22 @@
+{
+  "name": "frontpage",
+  "version": "0.0.0",
+  "description": "wangdoc.com's frontpage",
+  "main": "index.js",
+  "scripts": {
+    "build": "loppo -t wangdoc-frontpage && npm run commit && rm -rf dist",
+    "commit": "gh-pages --dist dist --branch static",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Wangdoc",
+    "document"
+  ],
+  "author": "Ruan Yifeng",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^1.0.0",
+    "loppo": "^0.6.4",
+    "loppo-theme-wangdoc-frontpage": "^0.0.4"
+  }
+}
