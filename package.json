@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "loppo -t wangdoc-frontpage && npm run commit && rm -rf dist",
-    "commit": "gh-pages --dist dist --branch static",
+    "commit": "gh-pages --no-push --dist dist --branch static",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
