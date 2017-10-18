@@ -2,20 +2,19 @@ language: node_js
 node_js:
   - "8"
 
-script: npm run build
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
-  local_dir: dist
-  repo: wangdoc/website
-  target_branch: master
-  deployment-file: false
-  on:
-    branch: master
+# script: npm run build
+# deploy:
+#  provider: pages
+#  skip_cleanup: true
+#  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+#  local_dir: dist
+#  repo: wangdoc/website
+#  target_branch: master
+#  on:
+#    branch: master
 
-# script: bash ./deploy.sh
-# env:
-#  global:
-#  - ENCRYPTION_LABEL: bb6a8c216dbe
-#  - COMMIT_AUTHOR_EMAIL: yifeng.ruan@gmail.com
+script: bash ./deploy.sh
+env:
+  global:
+  - ENCRYPTION_LABEL: bb6a8c216dbe
+  - COMMIT_AUTHOR_EMAIL: yifeng.ruan@gmail.com
