@@ -13,4 +13,4 @@ ssh-add wangdoc-deploy-rsa
 
 # Now that we're all set up, we can push.
 # git push $SSH_REPO $TARGET_BRANCH
-npm run build
+npm run build-and-commit
