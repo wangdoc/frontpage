@@ -4,6 +4,7 @@
   "description": "wangdoc.com's frontpage",
   "main": "index.js",
   "scripts": {
+    "prepush": "npm update",
     "build": "loppo -t wangdoc-frontpage",
     "build-and-commit": "npm run build && npm run commit",
     "commit": "gh-pages --dist dist --dest dist --branch master --repo git@github.com:wangdoc/website.git",
@@ -21,7 +22,8 @@
   "license": "ISC",
   "devDependencies": {
     "gh-pages": "^1.0.0",
+    "husky": "^0.14.3",
     "loppo": "^0.6.4",
-    "loppo-theme-wangdoc-frontpage": "0.0.6"
+    "loppo-theme-wangdoc-frontpage": "latest"
   }
 }
