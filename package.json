@@ -23,7 +23,7 @@
   "devDependencies": {
     "gh-pages": "^1.0.0",
     "husky": "^0.14.3",
-    "loppo": "^0.6.4",
-    "loppo-theme-wangdoc-frontpage": "latest"
+    "loppo": "^0.6.5",
+    "loppo-theme-wangdoc-frontpage": "0.0.9"
   }
 }
