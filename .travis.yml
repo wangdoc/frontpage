@@ -13,6 +13,10 @@ node_js:
 #  on:
 #    branch: master
 
+branches:
+  only:
+  - master
+
 script: bash ./deploy.sh
 env:
   global:
