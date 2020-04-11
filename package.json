@@ -4,7 +4,6 @@
   "description": "wangdoc.com's frontpage",
   "main": "index.js",
   "scripts": {
-    "prepush": "npm update",
     "build": "loppo -t wangdoc-frontpage",
     "build-and-commit": "npm run build && npm run commit",
     "commit": "gh-pages --dist dist --dest dist --branch master --add --repo git@github.com:wangdoc/website.git",
@@ -18,12 +17,17 @@
     "type": "git",
     "url": "https://github.com/wangdoc/frontpage.git"
   },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm update"
+    }
+  },
   "author": "Ruan Yifeng",
   "license": "ISC",
   "devDependencies": {
     "gh-pages": "latest",
-    "husky": "^0.14.3",
-    "loppo": "^0.6.15",
-    "loppo-theme-wangdoc-frontpage": "^0.1.11"
+    "husky": "4.x",
+    "loppo": "latest",
+    "loppo-theme-wangdoc-frontpage": "^0.2.1"
   }
 }
