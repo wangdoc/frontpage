@@ -28,6 +28,6 @@
     "gh-pages": "latest",
     "husky": "4.x",
     "loppo": "latest",
-    "loppo-theme-wangdoc-frontpage": "^0.2.3"
+    "loppo-theme-wangdoc-frontpage": "^0.2.4"
   }
 }
