@@ -22,14 +22,11 @@
 
 这个网站的所有页面，源码都是开放的，包括你现在看到的[这个页面](https://raw.githubusercontent.com/wangdoc/frontpage/master/README.md)。
 
-所有文档仓库都托管在 [GitHub](https://github.com/wangdoc)，你可以在那里追踪项目的进展。完成一个仓库，就会上线一个，文档需要艰苦的人类劳动，所以进展不会很快。
-
-欢迎大家参与文档写作和维护，你可以克隆源码仓库，提交 Pull Request，或者通过 Issue 反映问题。如果你拥有自己的文档项目，愿意捐赠给我们，也非常欢迎。
+所有文档仓库都托管在 [GitHub](https://github.com/wangdoc)，你可以在那里追踪项目的进展。欢迎大家参与文档写作和维护，你可以克隆源码仓库，提交 Pull Request，或者通过 Issue 反映问题。
 
 我们采用[《中文技术文档写作规范》](https://github.com/ruanyf/document-style-guide)。
 
 ### 广告
 
-为了生存和长期发展，网站带有广告，但不意味着对广告内容的担保。
+为了生存和长期发展，欢迎广告主与我们邮件联系，投放广告。
 
-欢迎广告主与我们联系。
