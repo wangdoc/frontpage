@@ -22,7 +22,7 @@
 
 这个网站的所有页面，源码都是开放的，包括你现在看到的[这个页面](https://raw.githubusercontent.com/wangdoc/frontpage/master/README.md)。
 
-所有文档仓库都托管在 [GitHub](https://github.com/wangdoc)，你可以在那里追踪项目的进展。欢迎大家参与文档写作和维护，你可以克隆源码仓库，提交 Pull Request，或者通过 Issue 反映问题。
+所有文档仓库都托管在 [GitHub](https://github.com/wangdoc)，你可以在那里追踪项目进展。欢迎大家参与文档写作和维护，你可以克隆源码仓库，提交 Pull Request，或者通过 Issue 反映问题。
 
 我们采用[《中文技术文档写作规范》](https://github.com/ruanyf/document-style-guide)。
 
