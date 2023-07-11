@@ -26,9 +26,9 @@
   "author": "Ruan Yifeng",
   "license": "ISC",
   "devDependencies": {
-    "gh-pages": "5.x",
+    "gh-pages": "^5.0.0",
     "husky": "^4.3.8",
-    "loppo": "^0.6.24",
-    "loppo-theme-wangdoc-frontpage": "0.5.x"
+    "loppo": "^0.6.25",
+    "loppo-theme-wangdoc-frontpage": "^0.5.5"
   }
 }
